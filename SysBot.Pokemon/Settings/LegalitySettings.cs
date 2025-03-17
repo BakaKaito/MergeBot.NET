@@ -1,4 +1,4 @@
-﻿using PKHeX.Core;
+using PKHeX.Core;
 using System.Collections.Generic;
 using System.ComponentModel;
 
@@ -49,6 +49,9 @@ public class LegalitySettings
 
     [Category(Generate), Description("Set a matching ball (based on color) for any generated Pokémon.")]
     public bool SetMatchingBalls { get; set; } = true;
+
+    [Category(Generate), Description("Set markings [●︎▲■♥★♦] based on IVs for any generated Pokémon.\n31 = Blue, 0 = Pink")]
+    public bool SetMarkingsByIV { get; set; }
 
     [Category(Generate), Description("Force the specified ball if legal.")]
     public bool ForceSpecifiedBall { get; set; } = true;

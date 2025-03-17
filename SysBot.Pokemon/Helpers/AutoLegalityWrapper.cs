@@ -36,6 +36,7 @@ public static class AutoLegalityWrapper
         APILegality.SetMatchingBalls = cfg.SetMatchingBalls;
         APILegality.ForceSpecifiedBall = cfg.ForceSpecifiedBall;
         APILegality.ForceLevel100for50 = cfg.ForceLevel100for50;
+        APILegality.UseMarkings = cfg.SetMarkingsByIV;
         Legalizer.EnableEasterEggs = cfg.EnableEasterEggs;
         APILegality.AllowTrainerOverride = cfg.AllowTrainerDataOverride;
         APILegality.AllowBatchCommands = cfg.AllowBatchCommands;
